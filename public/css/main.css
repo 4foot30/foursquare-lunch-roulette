@@ -1,0 +1,192 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.top {
+  margin-top: 150px;
+}
+
+.logo {
+  position: absolute;
+  top: 28px;
+  left: 24px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.triangle--down {
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top-style: solid;
+  border-top-width: 24px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.triangle--up {
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 24px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.triangle:nth-child(1) {
+  border-top-color: #00fff8 !important;
+  border-bottom-color: #00fff8 !important;
+  left: 0px;
+}
+.triangle:nth-child(2) {
+  border-top-color: #29eeed !important;
+  border-bottom-color: #29eeed !important;
+  left: 14px;
+}
+.triangle:nth-child(3) {
+  border-top-color: #37def7 !important;
+  border-bottom-color: #37def7 !important;
+  left: 28px;
+}
+.triangle:nth-child(4) {
+  border-top-color: #43cef8 !important;
+  border-bottom-color: #43cef8 !important;
+  left: 42px;
+}
+.triangle:nth-child(5) {
+  border-top-color: #52bff8 !important;
+  border-bottom-color: #52bff8 !important;
+  left: 56px;
+}
+.triangle:nth-child(6) {
+  border-top-color: #63aff9 !important;
+  border-bottom-color: #63aff9 !important;
+  left: 70px;
+}
+.triangle:nth-child(7) {
+  border-top-color: #759ff9 !important;
+  border-bottom-color: #759ff9 !important;
+  left: 84px;
+}
+.triangle:nth-child(8) {
+  border-top-color: #8790fa !important;
+  border-bottom-color: #8790fa !important;
+  left: 98px;
+}
+.triangle:nth-child(9) {
+  border-top-color: #9981fb !important;
+  border-bottom-color: #9981fb !important;
+  left: 112px;
+}
+.triangle:nth-child(10) {
+  border-top-color: #ab71fb !important;
+  border-bottom-color: #ab71fb !important;
+  left: 126px;
+}
+.triangle:nth-child(11) {
+  border-top-color: #be63fc !important;
+  border-bottom-color: #be63fc !important;
+  left: 140px;
+}
+.triangle:nth-child(12) {
+  border-top-color: #25dde3 !important;
+  border-bottom-color: #25dde3 !important;
+  top: 24px;
+  left: 14px;
+}
+.triangle:nth-child(13) {
+  border-top-color: #22ccd8 !important;
+  border-bottom-color: #22ccd8 !important;
+  top: 24px;
+  left: 28px;
+}
+.triangle:nth-child(14) {
+  border-top-color: #22ccd8 !important;
+  border-bottom-color: #22ccd8 !important;
+  top: 24px;
+  left: 42px;
+}
+.triangle:nth-child(15) {
+  border-top-color: #31adda !important;
+  border-bottom-color: #31adda !important;
+  top: 24px;
+  left: 56px;
+}
+.triangle:nth-child(16) {
+  border-top-color: #3cb3e4 !important;
+  border-bottom-color: #3cb3e4 !important;
+  top: 24px;
+  left: 70px;
+}
+.triangle:nth-child(17) {
+  border-top-color: #31adda !important;
+  border-bottom-color: #31adda !important;
+  top: 24px;
+  left: 84px;
+}
+.triangle:nth-child(18) {
+  border-top-color: #7487eb !important;
+  border-bottom-color: #7487eb !important;
+  top: 24px;
+  left: 98px;
+}
+.triangle:nth-child(19) {
+  border-top-color: #7487eb !important;
+  border-bottom-color: #7487eb !important;
+  top: 24px;
+  left: 112px;
+}
+.triangle:nth-child(20) {
+  border-top-color: #7f74e6 !important;
+  border-bottom-color: #7f74e6 !important;
+  top: 24px;
+  left: 126px;
+}
+.triangle:nth-child(21) {
+  border-top-color: #1ebbce !important;
+  border-bottom-color: #1ebbce !important;
+  top: 48px;
+  left: 28px;
+}
+.triangle:nth-child(22) {
+  border-top-color: #1baac4 !important;
+  border-bottom-color: #1baac4 !important;
+  top: 48px;
+  left: 42px;
+}
+.triangle:nth-child(23) {
+  border-top-color: #27a6cf !important;
+  border-bottom-color: #27a6cf !important;
+  top: 48px;
+  left: 56px;
+}
+.triangle:nth-child(24) {
+  border-top-color: #27a6cf !important;
+  border-bottom-color: #27a6cf !important;
+  top: 48px;
+  left: 84px;
+}
+.triangle:nth-child(25) {
+  border-top-color: #2990c5 !important;
+  border-bottom-color: #2990c5 !important;
+  top: 48px;
+  left: 98px;
+}
+.triangle:nth-child(26) {
+  border-top-color: #4487cf !important;
+  border-bottom-color: #4487cf !important;
+  top: 48px;
+  left: 112px;
+}
+.triangle:nth-child(27) {
+  border-top-color: #1799ba !important;
+  border-bottom-color: #1799ba !important;
+  top: 72px;
+  left: 42px;
+}
+.triangle:nth-child(28) {
+  border-top-color: #1799ba !important;
+  border-bottom-color: #1799ba !important;
+  top: 72px;
+  left: 98px;
+}
