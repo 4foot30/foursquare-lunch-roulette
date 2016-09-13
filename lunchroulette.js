@@ -45,7 +45,7 @@
                 client_id: config.secrets.clientId,
                 client_secret: config.secrets.clientSecret,
                 v: '20130815',
-                ll: '51.7476871,-1.2421237',
+                ll: '51.7476871,-1.2421237', // Cowley Road!
                 query: req.body.command
             },
             headers: {
@@ -65,47 +65,11 @@
                     response: response
                 });
 
-                // Send a response to public/admin - faye.post("UPDATE") ???
-                //res.send(req.body.command);
-
             })
             .catch(function (err) {
                 // API call failed...
                 console.log(err);
             });
-
-
-
-
-        // for (k in req) {
-        //     console.log(k);
-        // }
-
-        // var proxyRequest = https.request({
-        //     host: 'api.foursquare.com',
-        //     method: 'GET',
-        //     path: '/v2/venues/search?client_id=' + config.secrets.client_id + '&client_secret=' + config.secrets.client_secret + '&v=20130815&ll=40.7,-74&query=sushi'
-        // },
-        // function (proxyResponse) {
-        //     proxyResponse.on('data', function (chunk) {
-        //         console.log(chunk);
-        //         response.send(chunk);
-        //     });
-        // });
-
-        // proxyRequest.write(response.body);
-        // proxyRequest.end();
-
-        /*
-        // Broadcast the POST request's command to public/js/wall.js
-        bayeux.getClient()
-        .publish('/commands', {
-            command: req.body.command
-        });
-
-        // Send a response to public/admin - faye.post("UPDATE") ???
-        res.send(req.body.command);
-        */
 
     });
 

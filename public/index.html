@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>     <html lang="en" class="no-js ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>        <html lang="en" class="no-js ie lt-ie9 lt-ie8"> <![endif]-->
@@ -14,50 +13,14 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
         <link href="/css/main.css" rel="stylesheet" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico">
     </head>
 
     <body>
 
-        <div class="logo">
-            <!-- First line -->
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <!-- Second line -->
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <!-- Third lines -->
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--up"></div>
-            <div class="triangle triangle--down"></div>
-            <!-- Fourth lines -->
-            <div class="triangle triangle--down"></div>
-            <div class="triangle triangle--down"></div>
-        </div>
-
         <div class="container top">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>#wohackday Lunch Roulette</h1>
+                    <h1>Lunch Roulette</h1>
                     <h2>What are we having for lunch?</h2>
                     <form action="/explore" method="POST">
                         <div class="form-group">
@@ -77,19 +40,13 @@
             </div>
         </div>
 
-
-
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>!window.jQuery && document.write('<script src="js/jquery/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-        <!-- Include Faye so this page can receive messages (tweets) from the twitter node scripts -->
+        <!-- Include Faye so this page can receive messages from the node scripts -->
         <!-- Note: faye.js doesn't actually exist, Faye will intercept this request and work out what file to actually serve -->
         <script type="text/javascript" src="/faye/faye.js"></script>
-
-        <script src="js/gsap/src/minified/plugins/CSSPlugin.min.js"></script>
-        <script src="js/gsap/src/minified/easing/EasePack.min.js"></script>
-        <script src="js/gsap/src/minified/TweenLite.min.js"></script>
 
         <script type="text/javascript" src="js/lunchroulette.js"></script>
 

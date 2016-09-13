@@ -5,19 +5,6 @@
 
     function init() {
 
-        // Animate logo
-        $('.triangle').each(function() {
-            var startX = Math.random() * (window.innerWidth - 100),
-                startY = Math.random() * (window.innerHeight - 100),
-                delay = Math.random() * 3,
-                alphaTime = (Math.random() * 2) + 0.5,
-                posTime = (Math.random() * 2) + 0.5;
-            TweenLite.from(this, alphaTime, {alpha: 0, delay: delay});
-            TweenLite.from(this, posTime, {x: startX, delay: delay, ease: Back.easeOut});
-            TweenLite.from(this, posTime, {y: startY, delay: delay, ease: Back.easeOut});
-            TweenLite.from(this, posTime + 0.5, {rotation: 360 + (Math.random() * 360), delay: delay});
-        });
-
         $('button').on('click', function(e) {
 
             e.preventDefault();
